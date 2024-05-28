@@ -73,4 +73,3 @@ To edit the terrain vertices allowing to create mountains and valleys. Modify th
 - ***Terrain Texture Layers :***  
 To apply textures on the terrain.
 ![terrain4](./Images/screenshots/screenshot6.png)
-Particle System
