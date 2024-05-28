@@ -1,0 +1,43 @@
+#version 430
+
+struct VertexGpu {
+    vec3 position;
+    float padding1;
+    vec3 normal;
+    float padding2;
+    vec2 textureCoords;
+    vec2 padding3;
+};
+
+layout (local_size_x = 1, local_size_y = 1, local_size_z = 1) in;
+
+layout(std430, binding = 0) buffer ssboVertices {
+    VertexGpu vertices[];
+};
+
+uniform bool isBrushActive;
+uniform vec2 brushPosition;
+uniform float brushRadius;
+uniform float brushForce;
+uniform vec2 terrainScale;
+
+void main()
+{
+    uint currentIndex = gl_GlobalInvocationID.x;
+    VertexGpu vIn = vertices[currentIndex];
+    if (isBrushActive)
+    {
+        vec2 vertex2dPosition = vec2(vIn.position.x, vIn.position.z);
+        vec2 pos = brushPosition - vertex2dPosition;
+        pos *= terrainScale;
+        float distance = sqrt(pos.x * pos.x + pos.y * pos.y);
+        
+        if (distance < brushRadius)
+        {
+            float influence = 1.0 - (distance / brushRadius);
+            vIn.position.y += influence * brushForce;
+        }
+    }
+    
+    vertices[currentIndex] = vIn;
+}

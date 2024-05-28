@@ -1,0 +1,118 @@
+{
+  "gameObjects": [
+    {
+      "components": [
+        {
+          "data": {
+            "globalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "guid": "18a7d1f8-6630-db6c-ab00-cccccccccccc",
+            "localPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scaling": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "name": "transform"
+        },
+        {
+          "data": {
+            "ambientColor": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "diffuseColor": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "id": 0,
+            "specularColor": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "name": "directionalLight"
+        }
+      ],
+      "guid": "e279c770-9da3-d8d1-9600-cccccccccccc",
+      "isTerrain": false,
+      "name": "World"
+    },
+    {
+      "components": [
+        {
+          "data": {
+            "globalPosition": {
+              "x": -0.15278643369674683,
+              "y": 0.0,
+              "z": -5.014494895935059
+            },
+            "guid": "e12a5121-8b57-c53f-9900-cccccccccccc",
+            "localPosition": {
+              "x": -0.15278643369674683,
+              "y": 0.0,
+              "z": -5.014494895935059
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scaling": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "name": "transform"
+        },
+        {
+          "data": {
+            "modelPath": "C:\\Users\\Maxim\\Dev\\2023_gp_2027_gp_2027_projet_moteur-golem\\GolemEditor\\Assets\\One_For_All\\Meshes\\viking_room.obj",
+            "shaderPath": "",
+            "texturePath": "C:\\Users\\Maxim\\Dev\\2023_gp_2027_gp_2027_projet_moteur-golem\\GolemEditor\\Assets\\One_For_All\\Textures\\viking_room.jpg"
+          },
+          "name": "meshRenderer"
+        },
+        {
+          "data": {
+            "isLooping": false,
+            "isPlaying": true,
+            "musicPath": "C:\\Users\\Maxim\\Dev\\2023_gp_2027_gp_2027_projet_moteur-golem\\GolemEditor\\Assets\\Audio\\music_01.wav",
+            "volume": 1.0
+          },
+          "name": "audio"
+        }
+      ],
+      "guid": "b57bb2e1-8112-548d-a400-cccccccccccc",
+      "isTerrain": false,
+      "name": "viking"
+    }
+  ],
+  "guid": "9bd32dea-8c70-5a86-fe84-0a597a33c602",
+  "name": "scene_0"
+}
