@@ -33,9 +33,6 @@ class Terrain : public GameObject
 protected:
     std::vector<VertexGpu> m_vertices;
     std::vector<int> m_indices;
-    unsigned int m_vao;
-    unsigned int m_vbo;
-    unsigned int m_ebo;
     unsigned int m_ssbo;
     Shader* m_shader = nullptr;
     Shader* m_shaderTerrainUv = nullptr;
