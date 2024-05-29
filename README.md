@@ -2,9 +2,9 @@
 
 # Golem Engine
 
-This is our game engine. It was made in 4 months by 4 people. The goal of this engine is firstly to learn more about the development of a game engine, but also to add our special touches to it and create custom features we enjoy using and creating. Special thanks to **Ziyi Wang** for creating the wonderful logo you can see right above. 
-
-**Current version : *BETA***
+This is our game engine. It was made in 4 months by 4 people. The goal of this engine is firstly to learn more about 
+the development of a game engine, but also to add our special touches to it and create custom features we enjoy using
+and creating. Special thanks to **Ziyi Wang** for creating the wonderful logo you can see right above.  
 
 ## Useful links
 
@@ -59,7 +59,7 @@ You can navigate in the viewport using by using WASD and holding down right clic
   
 All functionalities are not listed in the README so feel free to discover them yourself.  
   
-## Special Features  
+## Special Feature  
   
 ### World Builder  
   
