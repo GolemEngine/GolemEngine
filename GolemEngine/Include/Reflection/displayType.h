@@ -129,7 +129,7 @@ void DisplayType::DisplayStdVector(MemberT* _class)
 {
 	for (unsigned int i = 0; i < _class->size(); i++)
 	{
-		BasicsFields<TypeT, MemberT::value_type, DescriptorT>(&(*_class)[i]);
+		BasicsFields<TypeT, typename MemberT::value_type, DescriptorT>(&(*_class)[i]);
 	}
 }
 

@@ -54,15 +54,15 @@
     <ClCompile Include="Source\UI\Windows\playScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\UI\Windows\viewportToolsWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\editor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\UI\editorUi.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\UI\Windows\basicActors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\UI\Windows\debugWindow.h">
@@ -90,6 +90,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\UI\Windows\playScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UI\Windows\basicActorsWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UI\Windows\viewportToolsWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

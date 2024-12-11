@@ -3,7 +3,8 @@
 #define _USE_MATH_DEFINES
 #include <cmath>
 #include <bit>
-
+#include <stdexcept>
+#include <limits>
 
 float DegToRad(float _deg) 
 { 
